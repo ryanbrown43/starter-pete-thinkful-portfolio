@@ -17,8 +17,11 @@ h3 {
 }
 
 /* Header */
-header {
-  text-align: center;
+.header-nav {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  justify-content: center;
 }
 
 /* Containers */
@@ -35,6 +38,36 @@ article {
 article div {
   text-align: center;
   width: 100%;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+}
+
+.projects-container {
+  display: flex;
+  flex: 1;
+  margin: 20px;
+  padding: 100px;
+}
+
+.project {
+  padding: 10px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+  max-width: 500px;
+}
+
+.text {
+  width: 50%;
+  text-align: justify;
 }
 
 /* Paragraphs */
@@ -58,8 +91,10 @@ nav a {
 /* Images */
 img {
   width: 100%;
-  max-width: 200px;
+  max-width: 190px;
+  vertical-align: top;
   height: auto;
+  justify-content: space-between;
 }
 
 .image-circle {
